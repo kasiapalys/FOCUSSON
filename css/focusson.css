@@ -1,0 +1,1293 @@
+body {
+	margin: 0px;
+  font-family: 'Open Sans',sans-serif;
+}
+
+.clean {
+	clear: both;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*HEADER*/
+.header {
+    font-family: 'Open Sans',Sans-Serif;
+    background-color: #39383F;
+    position: fixed;
+    left: 0;
+    top:0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    border-bottom-color: #fac917;
+    border-bottom-style: solid;
+    z-index: 100;
+}
+    
+.logo {
+  color:white;
+  padding-top: 4px;
+  padding-left: 25px;
+  float: left;
+  display: inline;
+}		
+		
+.logoFOCUSS {
+  font-weight: bold;
+	font-size: 25px;
+	margin-left: -3px;
+  display: inline-block;
+  margin-top: 5%;
+  }
+
+.logoON {
+  font-weight: normal;
+}
+
+.claim {
+  font-style: italic;
+  margin-left: 20px;
+  font-size: 16px;
+  display: inline-block;
+  float: right;
+  margin-top: 23px;
+  }
+
+.menu {
+  margin-top: 20px;
+  padding: 0;
+  float: right;
+  margin-right: 20px;
+  list-style: none;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+  display: inline-block;
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 10px 15px;
+}
+
+body a:hover {
+  color: #fac917;
+}
+
+.navbar-dark {
+  border-bottom: #fac917 2px solid;
+}
+
+/*HOME PAGE*/
+.sectionIntroduction {
+	display:block;
+  background-image: url("./../focusson-images/background/Photo by Damian Zaleski on Unsplash- FINAL.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background-position: top center;
+  z-index: 0;
+}
+
+.video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 10%;
+  bottom: 0%;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: hidden;
+  z-index: 0;
+}
+
+.video-container video {
+  /* Make video to at least 100% wide and tall */
+  min-width: 100%; 
+  min-height: 100%; 
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,0%);
+}
+
+.introductionTextWrap {
+  padding-left: 40%;
+  padding-bottom: 11%;
+  position: absolute;
+  bottom: 2%;
+}
+
+.main-slogan{
+  font-weight: 600;
+  font-size: 45px;
+  margin-top: 5%;
+}
+
+.main-sloganWhite {
+  font-weight: 600;
+  font-size: 30px;
+  margin-top: 5%;
+  color: white;
+}
+
+.sub-slogan{
+  font-size: 24px;
+  line-height: 1.8rem;
+  font-weight: 300;
+  /* color: white; */
+  display: block;
+}
+
+/*Buttons*/
+.TryButtonSpace {
+  padding-right: 3%;
+}
+
+/* .sizeIcoPaly {
+  width: 12%;
+} */
+
+.useSoftwareButtons {
+  margin: 4% 0;
+}
+.useSoftwareButtons a {
+  padding-right: 2%;
+}
+
+.btn-default {
+  margin-right: 18px;
+}
+
+.btn-default:hover {
+  background-color: #fac917;
+  border-color: #fac917;
+}
+
+.btn-warning {
+  background-color: #fac917;
+}
+
+.warning:hover {
+  background-color: #333;
+  color: white;
+  border-color: #333;
+}
+
+.warningMarginPrice {
+  margin-bottom: -23%;
+  margin-left: 10%;
+}
+
+.centerButtonTrial {
+  margin-left: 38px;
+  margin-right: auto;
+  margin-top: 238px;
+}
+
+.buttonContactUs {
+  margin-left: 14%;
+  margin-top: 4%;
+}
+
+.MainPageButtonRight{
+  text-align: center; 
+}
+
+.text-homepage{
+	font-size: 16px;
+	line-height: 1.6em;
+	letter-spacing: 1px;
+	display: block;
+	margin-bottom: 38px;
+	color: #39383F;
+	font-weight: 100;
+}
+
+.blackbutton{
+	background-color: #39383f;
+	color: #ffffff;
+}
+
+.outsource{
+	display: inline-block;
+	line-height: 1.6; 
+	font-size: 16px; 
+	font-weight: 100; 
+	letter-spacing: 1px;
+	color:#39383F;
+	margin-top: 53px;
+} */
+
+.ico-people{
+	width: 20px;
+}
+
+.frontPicture {
+width: 100%;
+margin-top: 30%;
+}
+
+.claim {
+  margin-top: 30%;    
+}
+
+/*CLIENTS*/
+.clientsWrap {
+  background-color: white;
+  padding-top: 5%;
+  padding-bottom: 40px;
+}
+
+.clientsWrap img {
+  margin: auto;
+    display: block;
+}
+
+.cleintsPosition {
+  display: inline-block;
+  text-align: justify;
+  float: left;
+  width: 25%;
+  margin-left: 97px;
+  /* text-align: center; */
+}
+
+.citations {
+  font-size: 14px;
+  color: grey;
+  text-align: justify;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+/*WHAT WE CAN DO FOR YOU?*/
+.sectionTools {
+		display: block;
+    /* background-image: url("../focusson-images/picture/grey-table.jpg"); */
+    /* background-image: url("../focusson-images/background/photo-1472289065668-ce650ac443d2.jpg"); */
+    background-image: url("../focusson-images/background/Photo by Pierre Châtel-Innocenti on Unsplash.jpg");
+		background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0% -4%;
+    padding: 11% 5%;
+	}
+
+.toolSubtitle {
+  color: #fac917;
+  font-size: 21px;
+  text-align: justify;
+  margin-top: 3%;
+}
+
+.toolText {
+  color: white;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.infoNoCreditCard {
+  color: white;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.stylButtom {
+	margin-left: 50%;
+    width: 10%;
+	text-align: center;
+	padding: 5px;
+}
+
+/*SCREENS BREAK: 4 SCREENS*/
+.screensWrap {
+  padding: 20px;
+}
+
+.picture {
+  float: left;
+  width: 95%;
+  margin-left: 9px;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+.zoom:hover {
+  transform:scale(2);
+}
+/*PRICE*/
+
+/*new*/
+.priceHeader {
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.pricemain-slogan {
+	font-weight: 600;
+  font-size: 34px;
+}
+
+.priceHeader p {
+  font-size: 2.1875rem;
+  line-height: 2.375rem;
+  color: #383839;
+  font-style: normal;
+  font-weight: 200;
+}
+
+.priceHeader .pricePerMonth {
+    color: #8b8b8b;
+    margin-top: -81px;
+    margin-left: 91px;
+    font-size: 19px;
+    line-height: 21px;
+}
+
+/*new*/
+.sectionPricing {
+  background-image: url("../focusson-images/background/Photo by LUM3N on Unsplash.jpg");
+  /* background-color: 20 0 10 80; */
+	background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 271px;
+}
+
+.priceContainer {
+  background-color: #fff;
+  box-shadow: 0 12px 24px rgba(0,0,0,.06);
+  padding: 52px 67px;
+}
+
+.price-wrap {
+	display: block;
+  width: 100%;
+  /* height: 100vh; */
+	background-color: rgb(61, 60, 60);
+	background-size: cover;
+	background-repeat: no-repeat;
+  padding-bottom: 123px;
+	background-position: center bottom;
+}
+
+.priceMainTable {
+  background-color: #fac917;
+  margin-top: 7%;
+}
+
+.praceGapSecondTable {
+  margin-top: -4%;
+}
+
+/* dane z poprzedniej grafiki
+		background-repeat: no-repeat;
+    background-position: 0% -4%;
+    background-attachment: fixed;
+    padding: 594px 40px 30px 40px; */
+
+/*Price- column left*/
+.price-wrapLeft {
+  /* padding-left: 1%;
+  padding-top: 8%;
+  float: left;
+  width: calc(33.333% - 13.334px);
+  height: 400px;
+  margin-right: 20px; */
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 8%;
+}
+
+.price-wrapRight {
+	float: right;
+	width: calc(63.966% - 13.334px);
+  height: 400px;
+  margin-right: 20px;
+  margin-top: -234px;
+}
+
+.slogan {
+  margin: 0.67em 0;
+  text-align: justify;
+  font-size: 21px;
+  padding-top: 11px;
+  font-weight: 800;
+  padding-left: 7%;
+}
+
+.subSlogan {
+  margin: 0.67em 0;
+  text-align: justify;
+  font-size: 15px;
+  padding-top: 11px;
+  padding-left: 7%;
+}
+
+.priceNetPrice {
+  font-size: 10px;
+  text-align: center;
+  font: bold;
+  color: white;
+}
+
+.priceGap {
+  margin-top: -13%;
+}
+
+.readMoreButtom {
+  margin-left: 2%;
+}
+
+.prices {
+  float: right;
+  list-style: none;
+  list-style-type: none;
+  width: 100%;
+  margin-top: 15%;
+  background-color: #fac917;
+  text-align: center;
+  margin-bottom: -513px;
+}
+
+.prices li {
+  display: inline-block;
+  padding-left: 10%;
+}
+
+.prices {
+  font-size: 24px;
+  letter-spacing: 8px;
+  color: #39383F;
+  font-weight: bold;
+  line-height: 1.428571429;
+  border-right: 1px solid #ffffff;
+  float: right;
+  list-style: none;
+  list-style-type: none;
+  width: 100%;
+  margin-top: 15%;
+  background-color: #fac917;
+  text-align: center;
+  margin-bottom: 53px;
+}
+
+.price-time {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: normal;
+  /* line-height: 1.428571429; */
+  text-align: center;
+}
+
+.upup {
+  position: absolute;
+  left: 46%;
+  top: 60%;
+}
+
+.priceTable {
+  /* margin: 8px 6px 5px; */
+  border-top: 1px solid #f0f0f0;
+  padding-top: 9px;
+  color:grey;
+}
+
+.priceTableLast {
+  border-top: 1px solid #f0f0f0;
+  padding-top: 9px;
+  color: grey;
+}
+
+.positionTableFirstRow {
+  margin-top: 6%;
+}
+
+.positionTableMiddleRow {
+  margin-top: 3%;
+}
+
+.positionTableLastRow {
+  margin-top: 3%;
+}
+
+.small {
+  font-size: 80%;
+  color: grey;
+}
+
+h4 {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+/*SCREENS BREAK: 2 SCREENS AND TEXT*/
+.monitorText {
+	display: inline-block;
+	width: 15%;
+}
+
+.pictureTwoScreens {
+  float: left;
+  margin-left: 21px;
+  padding: 30px;
+}
+
+/*CONTACT*/	
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.sectionContact {
+	display: block;
+  width: 100%;
+  /* background-image: url("../focusson-images/picture/white-table"); */
+  background-image: url("../focusson-images/background/Photo by Malte Wingen on Unsplash - FINAL.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.contactWrap {
+  padding-top: 210px;
+  padding-bottom: 38%;
+}
+
+.contactText{
+	font-size: 50px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: black;
+  /* text-align: center; */
+  margin-left: 14%;
+  width: 32%;
+  position: absolute;
+}
+
+.contactText a {
+  color: #fac917;
+}
+.email{
+	font-size: 21px;
+  color: #696969;
+  font-weight: bold;
+}
+
+.email a{
+	color: #39383f;
+}
+
+.email a:hover{
+	color: #fac917;
+	text-decoration: none;
+}
+
+.stylbutton {
+    margin-right: 448px;;
+}
+
+/*FOOTER */
+body a {
+  color: white;
+}
+
+.footer {
+  width: 100%;
+  height: 188px;
+  background-color: #39383f;
+  padding-top: 44px;
+}
+
+.allfooter {
+  max-width: 833px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tank {
+  width: 160px;
+  height: 105px;
+  display: inline-block;
+  float: left;
+}
+
+.mainfunction {
+  color: #ffffff;
+  text-align: left;
+  color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.noformatting {
+  margin: 0px;
+  padding: 0px;
+}
+
+.function {
+  list-style-type: none;
+  text-align: left;
+  font-size: 12px;
+  color: #fff;
+}
+
+.fotterfirstraw {
+  background-color: #39383f;
+  color: #ffffff;
+  text-align: left;
+}
+
+.afterfooter {
+  width: 100%;
+  height: 74px;
+  background-color: #f5c900;
+}
+
+.secondfooter {
+  width: 931px;
+  height: 33px;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+
+.copyright {
+  display: inline-block;
+  margin-top: 23px;
+  margin-left: -29%;
+  font-size: 14px;
+  text-align: center;
+}
+
+.logobold {
+  font-weight: bold;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ a:hover {
+  color: #fac917;
+  text-decoration: none;
+ }
+
+.profilebutton {
+  border-top: solid 2px #e6e6e6;
+  border-bottom: solid 1px #e6e6e6;
+  width: 319px;
+}
+
+/*MOBILNE*/
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199px) { 
+   /*HOME PAGE*/ 
+   .sectionIntroduction {
+    display: block;
+    background-image: url(./../focusson-images/background/Photo by Damian Zaleski on Unsplash- FINAL.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 81vh;
+    background-position: center top;
+    z-index: 0
+  } 
+
+  .introductionTextWrap {
+    padding-left: 36%;
+    padding-bottom: 15%;
+    position: absolute;
+    bottom: 2%;
+  }
+
+  .main-slogan {
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 5%;
+  }
+
+  .sub-slogan {
+    font-size: 16px;
+    line-height: 1.8rem;
+    font-weight: 300;
+    /* color: white; */
+    display: block;
+  }
+
+  /*PRICE*/
+  .sectionPricing {
+    background-image: url(../focusson-images/background/Photo by LUM3N on Unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top: 76px;
+  }
+
+  /*CONTACT*/
+  .contactText {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.3;
+    color: black;
+    /* text-align: center; */
+    margin-left: 14%;
+    width: 32%;
+    position: absolute;
+  }
+
+  /*FOOTER*/
+  .allfooter {
+    max-width: 833px;
+    margin-left: 9%;
+    margin-right: auto;
+  }
+
+.copyright {
+  display: inline-block;
+  margin-top: 23px;
+  margin-left: 26%;
+  font-size: 14px;
+  text-align: center;
+  }
+}
+
+/*Large devices (iPad Pro 1024px)*/
+@media (max-width: 1024px) { 
+  /*HOME PAGE*/
+  .introductionTextWrap {
+    padding-left: 19%;
+    padding-bottom: 15%;
+    position: absolute;
+    bottom: 16%;
+  }
+
+  .main-slogan {
+    font-weight: 600;
+    font-size: 36px;
+    margin-top: 5%;
+  }
+
+  .sub-slogan {
+      font-size: 24px;
+      line-height: 1.9rem;
+      font-weight: 300;
+      /* color: white; */
+      display: block;
+  }
+
+  /*CONTACT*/
+  .sectionContact {
+    display: block;
+    width: 100%;
+    background-image: url(../focusson-images/background/Photo by Malte Wingen on Unsplash - FINAL.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+
+  .contactText {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.3;
+    color: black;
+    /* text-align: center; */
+    margin-left: 4%;
+    width: 32%;
+    position: absolute;
+  }
+}
+
+Medium devices (tablets, less than 992px)
+@media (max-width: 991px) { 
+  /*HOME PAGE*/
+  .introductionTextWrap {
+    padding-left: 36%;
+    padding-bottom: 22%;
+    position: absolute;
+    bottom: 2%;
+  }
+
+  .main-slogan {
+    font-weight: 600;
+    font-size: 21px;
+    margin-top: 5%;
+  }
+
+  .sub-slogan {
+    font-size: 14px;
+    line-height: 1.4rem;
+    font-weight: 300;
+    color: black;
+    display: block;
+  }
+
+  /*CONTACT*/
+  .contactText {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.3;
+    color: black;
+    margin-left: 6%;
+    width: 32%;
+    position: absolute;
+  }
+
+  /*FOOTER*/
+  .footer {
+    width: 100%;
+    height: 325px;
+    background-color: #39383f;
+    padding-top: 44px;
+  }
+
+  .allfooter {
+    max-width: 833px;
+    margin-left: 14%;
+    margin-right: auto;
+  }
+
+  .mainfunction {
+    color: #ffffff;
+    text-align: left;
+    color: #fff;
+    font-weight: 600;
+    font-size: 22px;
+  }
+
+  .noformatting {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .copyright {
+    display: inline-block;
+    margin-top: 23px;
+    margin-left: 59%;
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+ @media (max-width: 767px) {
+  /*HOME PAGE*/
+  .introductionTextWrap {
+    padding-left: 31%;
+    padding-bottom: 21%;
+    position: absolute;
+    bottom: 2%;
+  }
+
+  .main-slogan {
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 5%;
+  }
+
+  .sub-slogan {
+    font-size: 11px;
+    line-height: 1.2rem;
+    font-weight: 300;
+    color: black;
+    display: block;
+  }
+
+  .useSoftwareButtons a {
+    padding-right: 2%;
+    margin-top: 4%;
+  }
+
+  .readMoreButtom {
+    margin-left: 0%;
+  }
+
+  /*CONTACT*/
+  .contactText {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.3;
+    color: black;
+    /* text-align: center; */
+    margin-left: 14%;
+    width: 32%;
+    position: absolute;
+  }
+
+  .priceHeader p {
+    font-size: 2.1875rem;
+    line-height: 4.375rem;
+    color: #383839;
+    font-style: normal;
+    font-weight: 200;
+  }
+
+  .sectionContact {
+    display: block;
+    width: 100%;
+    /* background-image: url(../focusson-images/picture/white-table); */
+    background-image: url(../focusson-images/background/Photo by Malte Wingen on Unsplash - FINAL.jpg);
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: cover;
+    background-size: top;
+    position: relative;
+  }
+ 
+  /*FOOTER*/
+  .allfooter {
+    max-width: 833px;
+    margin-left: 12%;
+    margin-right: auto;
+  }
+
+  .footer {
+    width: 100%;
+    height: 292px;
+    background-color: #39383f;
+    padding-top: 44px;
+  }
+
+  .mainfunction {
+    color: #ffffff;
+    text-align: left;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  p {
+    margin-top: 15px;
+    margin-bottom: 0rem;
+  }  
+ }
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) { 
+/*NAVIGATION*/
+.navbar-nav .nav-link {
+  padding-right: 0;
+}
+
+/*HOME PAGE*/
+  .introductionTextWrap {
+    padding-left: 23%;
+    padding-bottom: 21%;
+    position: absolute;
+    bottom: 8%;
+  }
+
+  /*TOOLS*/
+  .toolText {
+    color: white;
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 6%;
+  }
+
+  /*FOUR SCREEMS*/
+  .picture {
+    float: left;
+    width: 95%;
+    margin-left: 9px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  /*FOOTER*/
+  .footer {
+    width: 100%;
+    height: 473px;
+    background-color: #39383f;
+    padding-top: 44px;
+  }
+
+  .copyright {
+    display: inline-block;
+    margin-top: 23px;
+    margin-left: 52%;
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+/*Extra small devices (Picel 2 411)*/
+@media (max-width: 411px) {
+  /*NAVIGATION*/
+  .sectionIntroduction {
+    display: block;
+    background-image: url(./../focusson-images/background/Photo by Damian Zaleski on Unsplash- FINAL.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 81vh;
+    background-position: center right;
+    z-index: 0;
+  }
+
+  .introductionTextWrap {
+    padding-left: 3%;
+    padding-bottom: 5%;
+    position: absolute;
+    bottom: 8%;
+  }
+
+  .contactText {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.3;
+    color: black;
+    margin-left: -1%;
+    width: 41%;
+    position: absolute;
+  }
+
+/*CONTACT*/
+.contactWrap {
+  padding-top: 155px;
+  padding-bottom: 51%;
+  }
+
+/*FOOTER*/
+.copyright {
+  display: inline-block;
+  margin-top: 23px;
+  margin-left: 59%;
+  font-size: 14px;
+  text-align: center;
+  }
+}
+
+/*Extra small devices (iPhone 5/SE- 320 - robie na 300)*/
+@media (max-width: 401px) {
+  .container-fluid {
+    width: 198%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  /*NAVIGATION*/
+
+  /*HOME PAGE*/
+  .introductionTextWrap {
+    padding-left: 3%;
+    padding-bottom: 5%;
+    position: absolute;
+    bottom: 8%;
+  }
+
+  .sectionIntroduction {
+    display: block;
+    background-image: url(./../focusson-images/background/Photo by Damian Zaleski on Unsplash- FINAL.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 99vh;
+    background-position: top;
+    z-index: 0;
+  }
+
+  .main-slogan {
+    font-weight: 600;
+    font-size: 27px;
+    margin-top: 17%;
+    padding-top: 35%;
+  }
+
+  .sub-slogan {
+    font-size: 16px;
+    line-height: 2.3rem;
+    font-weight: 300;
+    color: black;
+    display: block;
+  }
+
+  .useSoftwareButtons {
+    margin: 6% 0;
+  }
+
+  /*CONTACT*/
+  .sectionContact {
+    display: block;
+    width: 100%;
+    /* background-image: url(../focusson-images/picture/white-table); */
+    background-image: url(../focusson-images/background/Photo by Malte Wingen on Unsplash - FINAL.jpg);
+    background-repeat: no-repeat;
+    background-attachment: inherit; /*nie moglam tu zrobic attachmet: fixed*/
+    background-position: center;
+    background-size: 123%;
+  }
+
+  /*FOOTER*/
+  .copyright {
+    display: inline-block;
+    margin-top: 23px;
+    margin-left: 50%;
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+/*Extra small devices (samsung Galaxy S5)*/
+@media (max-width: 360px) {
+  .sectionIntroduction {
+    display: block;
+    background-image: url(./../focusson-images/background/Photo by Damian Zaleski on Unsplash- FINAL.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 81vh;
+    background-position: top RIGHT;
+    z-index: 0;
+  }
+
+  .introductionTextWrap {
+    padding-left: 5%;
+    padding-bottom: 1%;
+    position: absolute;
+    bottom: 8%;
+  }
+
+  .main-slogan {
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 5%;
+  }
+
+  .sub-slogan {
+    font-size: 9px;
+    line-height: 1rem;
+    font-weight: 300;
+    color: black;
+    display: block;
+  }
+
+  /*contact*/
+  .contactText {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.3;
+    color: black;
+    /* text-align: center; */
+    margin-left: 10%;
+    width: 32%;
+    position: absolute;
+  }
+
+  .contactWrap {
+    padding-top: 140px;
+    padding-bottom: 38%;
+  }
+
+  .copyright {
+    display: inline-block;
+    margin-top: 23px;
+    margin-left: 62%;
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+/*Extra MEGA small devices*/
+@media (max-width: 301px) {
+/*CONTACT*/
+  .sectionContact {
+    display: block;
+    width: 100%;
+    /* background-image: url(../focusson-images/picture/white-table); */
+    background-image: url(../focusson-images/background/Photo by Malte Wingen on Unsplash - FINAL.jpg);
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-position: center;
+    background-size: 135%;
+  }
+
+  .contactText {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.3;
+    color: black;
+    /* text-align: center; */
+    margin-left: 2%;
+    width: 32%;
+    position: absolute;
+  }
+
+  /*FOOTER*/
+  .copyright {
+    display: inline-block;
+    margin-top: 14px;
+    margin-left: 60%;
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 168px) {
+  /*HOME PAGE*/
+  .main-slogan {
+    font-weight: 600;
+    font-size: 27px;
+    margin-top: 5%;
+  }
+
+  .sub-slogan {
+    font-size: 18px;
+    line-height: 1.9rem;
+    font-weight: 300;
+    display: block;
+  }
+
+  /*FOOTER*/
+  .copyright {
+    display: inline-block;
+    margin-top: 23px;
+    margin-left: 39%;
+    font-size: 14px;
+    text-align: center;
+  }
+}
+

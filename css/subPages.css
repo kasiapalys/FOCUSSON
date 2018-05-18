@@ -1,0 +1,93 @@
+iconGap
+
+.smallHedline {
+  color: black;
+  line-height: 0.5;
+}
+
+/* TOOL */
+.mainContainerOFGI {
+  margin-top: 11%;
+}
+
+.sectionOFGI {
+  margin-top: 10%;
+}
+
+.tool-column{
+  background-color: #ffffff;
+  padding: 40px 140px;
+  overflow: hidden;
+}
+
+.tool-column:nth-child(2n) .tool-img{
+  float: right;
+  margin-right: -207px;
+}
+
+.tool-img{
+  max-width: 100%;
+}
+
+.tool-heading{
+  margin-bottom: 20px;
+}
+
+.tool-heading-bold{
+  font-weight: 800;
+}
+
+.tool-text{
+  line-height: 24px;
+  color: #777;
+  text-align: justify;
+}
+
+.tool-column:nth-child(6){
+  padding-bottom: 100px;
+}
+
+.tool-column2{
+  background-color: #ffffff;
+  padding: 40px 140px;
+  overflow: hidden;
+}
+
+.tool-column2:nth-child(2n+1) .tool-img{
+  float: right;
+  margin-right: -207px;
+}
+
+.tool-heading-bold {
+  font-weight: 800;
+}
+
+.sub-heading {
+  margin-bottom: 20px;
+}
+
+/* Button on the bottom*/
+
+.centerButtonTrialWrap {
+  background-color: #ffffff;
+}
+
+.centerButtonTrial {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.infoNoCreditCard {
+  color: black;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.button-use-software{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.centerButtonTrial:hover {
+  background-color: #fac917;
+}

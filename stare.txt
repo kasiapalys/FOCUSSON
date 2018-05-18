@@ -1,0 +1,222 @@
+<!--1 STRONA-->
+<div class="MainPageStylRedWomen">
+        <h1 class="Main-slogan">Software to Qualitative Data Analysis<br>and conduct Online Focus Groups</h1>
+        <h2 class="Sub-slogan">Use the system - conduct an online interview.</h2>
+        <h2 class="Sub-slogan">Analyze and gain insight from people around the world.</h2>
+        <br>
+        <div class="MainPageButton">
+            <a href="https://login.focusson.pl/" type="button" class="btn btn-default navbar-btn MainPageButtonRight"><img src="focusson-images/icons/dolar.png">Free trail</a>
+            <a href="#Introduction" type="button" class="btn btn-default navbar-btn blackbutton"><img src="focusson-images/icons/moreU.png"> More</a>
+        </div>
+</div>
+<!--1 STRONA-->
+
+<!--2 STRONA-->
+<div class="MainPageStylBlackTable">
+                <div class="line positionTextParagraph1">
+                    <h1 class="positionTexth1">WHAT YOU CAN DO WITH US?</h1>
+                    <p class="positionTexth6">ONLINE FOCUS SECRET POWERS:</p>
+                    <p>Przeprowadzić wywiad, z ludźmi z całego świata. Nie stresując ich kamerą, zapewniając anonimowość, porozmawiaj z nimi w ich naturalnym środowisku. Nie widzicie się na wzajem, co sprzyja szczerości. Poznasz prawdziwe insight’y i język i myśli Twojej grupy docelowej. Porozmawiaj już dzisiaj!</p>
+                </div>
+
+                <div class="line positionTextParagraph2">
+                    <p class="positionTexth6">PRACA NA JEDNYM DOKUMENCIE:</p>
+                    <p>Tagować tekst, tworzyć systemy kodowania w zespole rozproszonym na całym świecie. Możecie pracować w tym samym czasie, pisać komentarze, tworzyć cząstkowy raport niemalże w czasie badania, albo świeżo po nim. Nie ograniczamy Twojej pracy do wywiadów online, możesz pracować na tekście z różnych badań, ważne aby były to doxy.</p>
+                </div>
+        
+		<a href="https://login.focusson.pl/" type="button" class="stylButtom"><img src="focusson-images/icons/dolar.png">Use our software</a>
+</div>
+<!--2 STRONA-->
+
+<!--3 STRONA MONITORY-->
+<div>
+    <span class="rozmiarMalyKwadrat uklad4">
+        <img class="zdjecie" src="focusson-images/screeny/wywiad.png"> 
+    </span>
+    
+    <span class="rozmiarMalyKwadrat uklad4">
+        <img class="zdjecie" src="focusson-images/screeny/kolokacje.png"> 
+    </span>
+
+    <span class="rozmiarMalyKwadrat uklad4">
+        <img class="zdjecie" src="focusson-images/screeny/lingwistyka.png"> 
+    </span>
+
+    <span class="rozmiarMalyKwadrat uklad4">
+        <img class="zdjecie" src="focusson-images/screeny/wywiady-mod-ankieta.png"> 
+    </span>
+    <div class="Clean"></div>
+</div>
+<!--3 STRONA MONITORY-->
+
+<!--KONTAKT-->
+<div class="MainPageStyleWhiteTable">
+    <p class="textContact">If you have any questions, just ask!</p>
+    <a href="mailto:biuro@focusson.pl" type="button" class="stylbutton"><img src="focusson-images/icons/wyw.png" class="ico-people"> Contact us</a>
+    <p class="email">E-mail: <a href="mailto:biuro@focusson.pl">biuro@focusson.pl</a></p>
+</div>
+<!--KONTAKT-->
+
+<!--4 STRONA MONITORY-->
+<div class="postionText">
+    <span class="rozmiarMalyKwadrat uklad4">
+        <img class="zdjecie" src="focusson-images/screeny/scenariusz.png"> 
+    </span>
+    
+    <span class="rozmiarMalyKwadrat uklad4">
+        <p class="stylh1">SOFTWARE ONLINE FOCUS GROUPS</p> 
+    </span>
+
+    <span class="rozmiarMalyKwadrat uklad4">
+        <img class="zdjecie" src="focusson-images/screeny/wspolwystepowanie.png"> 
+    </span>
+
+    <span class="rozmiarMalyKwadrat uklad4">
+        <p class="stylh1">SOFTWARE TO QUALITATIVE DATA ANALYSIS</p>  
+    </span>
+</div>
+<!--4 STRONA MONITORY-->
+
+
+
+
+
+<!--PRICE-->
+	
+<!-- <div>
+    <img class="MainPageStylGraphic" src="focusson-images/background/7ca.jpg">
+
+    <div class="postionText">
+        <div class="columnLeft">
+            <h1 class="slogan">CENA JEST JEDNA<BR>PAŁACISZ ZA CZAS</h1>
+            <a href="https://login.focusson.pl/" type="button" class="btn btn-default navbar-btn button-use-software btn-block"><img src="focusson-images/icons/dolar.png">TRY NOW</a>
+            <p class="ocasion">First week is free!</p>
+
+        </div>
+
+    <div class="columnRight">
+        <div class="block">
+            <div>
+                <h2 class="prices">$100*</h2>
+                <img src="focusson-images/icons/upup.png" class="upup">
+                <p class="price-time">WEEK</p>
+            </div>
+
+            <div>
+                <h2 class="prices">$325*</h2>
+                <img src="focusson-images/icons/upup.png" class="upup">
+                <p class="price-time">MONTH</p>
+            </div>
+
+            <div>
+                <h2 class="prices">$XX*</h2>
+                <img src="focusson-images/icons/upup.png" class="upup">
+                <p class="price-time">YEAR</p>
+            </div>
+    </div>
+
+        <div>
+            <ul>
+                <li class="zu4H5">
+                    <h4>oprogramowanie typu SaaS</h4>
+                    <small>brak potrzeby instalowania oprogramowania</small>
+                </li>
+
+                <li class="zu4H5">
+                    <h4>praca zespołowa na jednym dokumencie</h4>
+                    <small>korzystaj z danych gdziekolwiek jesteś</small>
+                </li>
+                
+                <li class="zu4H5">
+                        <h4>nieogranoczona liczba subkont</h4>
+                        <small>możliwość założenia nieograniczonej liczby kont użytkowników w ramach jednej firmy</small>
+                    </li>
+
+                <li class="zu4H5">
+                    <h4>redulowanie dostępu do konta</h4>
+                    <small>możliwość nadawania uprawnień dostepności</small>
+                </li>
+
+                <li class="zu4H5">
+                    <h4>możliwość analizy dowolnego pliku docx</h4>
+                    <small>narzędzia do analizy danych jakościowych</small>
+                </li>
+
+                <li class="zu4H5">
+                    <h4>nieograniczona licza wywiadów online</h4>
+                    <small>możliwość przeprowadzenia nieograniczonej liczby wywiadów online</small>
+                </li>
+
+                <li class="zu4H5">
+                    <h4>eksport danych</h4>
+                    <small>możliwość eksportu danych do excel/ word</small>
+                </li>
+
+                <li class="zu4H5">
+                    <h4>dedykowana domena</h4>
+                    <small>firmowe konto w domienie focussona</small>
+                </li>
+
+                <li class="zu4H5">
+                    <h4>wersje językowe niezbędne do analiz</h4>
+                    <small>orogramowanie dostępne w jezyku polskim i angielskim</small>
+                </li>
+
+                <li class="zu4H5">
+                    <h4>szyfrowane dane</h4>
+                    <small>dane są szyfrowane SSL</small>
+                </li>
+
+                <li class="zu4H5">
+                        <h4>wszystkie dane w jednym miejscu</h4>
+                        <small>możliwość powrotu do starych analiz</small>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div> -->
+
+<!--4 STRONA MONITORY-->
+<div class="postionText">
+    <span class="rozmiarMalyKwadrat uklad4">
+        <img class="zdjecie" src="focusson-images/screeny/scenariusz.png"> 
+    </span>
+    
+    <span class="rozmiarMalyKwadrat uklad4">
+        <p class="stylh1">SOFTWARE ONLINE FOCUS GROUPS</p> 
+    </span>
+
+    <span class="rozmiarMalyKwadrat uklad4">
+        <img class="zdjecie" src="focusson-images/screeny/wspolwystepowanie.png"> 
+    </span>
+
+    <span class="rozmiarMalyKwadrat uklad4">
+        <p class="stylh1">SOFTWARE TO QUALITATIVE DATA ANALYSIS</p>  
+    </span>
+</div>
+<!--4 STRONA MONITORY-->
+
+<div class=">
+				<img src="focusson-images/pbs.png">
+				<p class="citations">"Thanks to FOCUSSON, our researchers could work simultaneously on all transcripts (150 in-depth interviews), quickly creating typologies and descriptions (...)"</p>
+			</div>
+
+			<div class="col-md-3 cust-column">
+				<img src="focusson-images/kghm.png">
+				<p class="citations">"The project (...) was implemented very professionally and efficiently. We are satisfied with everyone's work on it."</p>
+			</div>
+
+			<div class="col-md-3 cust-column">
+				<img src="focusson-images/ue.png">
+				<p class="citations">"(...) we were able to invite all alumni (...), including those living outside Wrocław or even Poland, to participate in the interview. (...) They could participate in our research without incurring any additional costs."</p>
+			</div>
+
+			<div class="col-md-3 cust-column">
+				<img src="focusson-images/logo-IBE.png">
+				<p class="citations">"The linguistics tool allowed us to monitor certain indicators, for instance the Giroud Index, that reveal students' fluency in English."</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+
