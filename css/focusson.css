@@ -95,9 +95,9 @@ body a:hover {
 	background-size: cover;
   background-attachment: fixed;
   position: relative;
-  top: 0;
+  top: 70px;
   left: 0;
-  height: 100vh;
+  height: calc(100vh - 70px);
   background-position: top center;
   z-index: 0;
 }
@@ -133,27 +133,28 @@ body a:hover {
 }
 
 .introductionTextWrap {
-  padding-left: 40%;
-  padding-bottom: 11%;
+  padding-left: 38%;
+  padding-right: 10%;
   position: absolute;
-  bottom: 2%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-.main-slogan{
+.main-sloganWhite{
   font-weight: 600;
-  font-size: 45px;
-  margin-top: 5%;
-}
-
-.main-sloganWhite {
-  font-weight: 600;
-  font-size: 30px;
+  font-size: 29px;
   margin-top: 5%;
   color: white;
 }
 
+.main-slogan{
+  font-weight: 600;
+  font-size: 29px;
+  margin-top: 5%;
+}
+
 .sub-slogan{
-  font-size: 24px;
+  font-size: 21px;
   line-height: 1.8rem;
   font-weight: 300;
   /* color: white; */
@@ -256,7 +257,7 @@ margin-top: 30%;
 /*CLIENTS*/
 .clientsWrap {
   background-color: white;
-  padding-top: 5%;
+  padding-top: 9%;
   padding-bottom: 40px;
 }
 
@@ -710,44 +711,22 @@ a {
 /*Large devices (desktops, less than 1200px)*/
 @media (max-width: 1199px) { 
    /*HOME PAGE*/ 
-   .sectionIntroduction {
-    display: block;
-    background-image: url(./../focusson-images/background/Photo by Damian Zaleski on Unsplash- FINAL.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 81vh;
-    background-position: center top;
-    z-index: 0
-  } 
-
-  .introductionTextWrap {
-    padding-left: 36%;
-    padding-bottom: 15%;
-    position: absolute;
-    bottom: 2%;
+   .introductionTextWrap {
+    padding-left: 38%;
+    padding-right: 10%;
   }
 
   .main-slogan {
-    font-weight: 600;
-    font-size: 25px;
-    margin-top: 5%;
+    font-size: 26px;
   }
 
   .sub-slogan {
-    font-size: 16px;
-    line-height: 1.8rem;
-    font-weight: 300;
-    /* color: white; */
-    display: block;
+      font-size: 19px;
   }
 
   /*PRICE*/
   .sectionPricing {
-    background-image: url(../focusson-images/background/Photo by LUM3N on Unsplash.jpg);
+    background-image: url('../focusson-images/background/Photo by LUM3N on Unsplash.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -779,38 +758,31 @@ a {
   margin-left: 26%;
   font-size: 14px;
   text-align: center;
-  }
+  } 
 }
 
 /*Large devices (iPad Pro 1024px)*/
 @media (max-width: 1024px) { 
   /*HOME PAGE*/
   .introductionTextWrap {
-    padding-left: 19%;
-    padding-bottom: 15%;
-    position: absolute;
-    bottom: 16%;
+    padding-left: 38%;
+    padding-right: 10%;
   }
 
   .main-slogan {
-    font-weight: 600;
-    font-size: 36px;
-    margin-top: 5%;
+    font-size: 28px;
   }
 
   .sub-slogan {
-      font-size: 24px;
-      line-height: 1.9rem;
-      font-weight: 300;
-      /* color: white; */
-      display: block;
+    font-size: 18px;
+    line-height: 1.5rem;
   }
 
   /*CONTACT*/
   .sectionContact {
     display: block;
     width: 100%;
-    background-image: url(../focusson-images/background/Photo by Malte Wingen on Unsplash - FINAL.jpg);
+    background-image: url('../focusson-images/background/Photo by Malte Wingen on Unsplash - FINAL.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -830,14 +802,12 @@ a {
   }
 }
 
-Medium devices (tablets, less than 992px)
+/* Medium devices (tablets, less than 992px) */
 @media (max-width: 991px) { 
   /*HOME PAGE*/
   .introductionTextWrap {
     padding-left: 36%;
-    padding-bottom: 22%;
-    position: absolute;
-    bottom: 2%;
+    padding-right: 10%
   }
 
   .main-slogan {
@@ -905,24 +875,16 @@ Medium devices (tablets, less than 992px)
  @media (max-width: 767px) {
   /*HOME PAGE*/
   .introductionTextWrap {
-    padding-left: 31%;
-    padding-bottom: 21%;
-    position: absolute;
-    bottom: 2%;
+    padding-left: 30%;
+    padding-right: 4%;
   }
 
   .main-slogan {
-    font-weight: 600;
-    font-size: 14px;
-    margin-top: 5%;
+    font-size: 20px;
   }
 
   .sub-slogan {
-    font-size: 11px;
-    line-height: 1.2rem;
-    font-weight: 300;
-    color: black;
-    display: block;
+    font-size: 13px;
   }
 
   .useSoftwareButtons a {
@@ -958,7 +920,7 @@ Medium devices (tablets, less than 992px)
     display: block;
     width: 100%;
     /* background-image: url(../focusson-images/picture/white-table); */
-    background-image: url(../focusson-images/background/Photo by Malte Wingen on Unsplash - FINAL.jpg);
+    background-image: url('../focusson-images/background/Photo by Malte Wingen on Unsplash - FINAL.jpg');
     background-repeat: no-repeat;
     background-attachment: inherit;
     background-size: cover;
@@ -1003,10 +965,8 @@ Medium devices (tablets, less than 992px)
 
 /*HOME PAGE*/
   .introductionTextWrap {
-    padding-left: 23%;
-    padding-bottom: 21%;
-    position: absolute;
-    bottom: 8%;
+    padding-left: 30%;
+    padding-right: 5%;
   }
 
   /*TOOLS*/
@@ -1044,27 +1004,39 @@ Medium devices (tablets, less than 992px)
 }
 
 /*Extra small devices (Picel 2 411)*/
+@media (max-width: 470px) {
+  /*NAVIGATION*/
+
+  /*HOME PAGE*/
+  .sectionIntroduction {
+    top: 106px;
+    height: calc(100vh - 106px);
+  }
+
+  .introductionTextWrap {
+    padding-left: 20%;
+    padding-right: 5%;
+  }
+
+  /*CLIENTS*/
+  .clientsWrap {
+    padding-top: calc(9% + 106px);
+  }
+}
+
+/*Extra small devices (Picel 2 411)*/
 @media (max-width: 411px) {
   /*NAVIGATION*/
+
+  /*HOME PAGE*/
   .sectionIntroduction {
-    display: block;
-    background-image: url(./../focusson-images/background/Photo by Damian Zaleski on Unsplash- FINAL.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 81vh;
-    background-position: center right;
-    z-index: 0;
+    top: 106px;
+    height: calc(100vh - 106px);
   }
 
   .introductionTextWrap {
     padding-left: 3%;
-    padding-bottom: 5%;
-    position: absolute;
-    bottom: 8%;
+    padding-right: 5%;
   }
 
   .contactText {
@@ -1076,6 +1048,11 @@ Medium devices (tablets, less than 992px)
     width: 41%;
     position: absolute;
   }
+
+/*CLIENT*/
+.clientsWrap {
+
+}
 
 /*CONTACT*/
 .contactWrap {
@@ -1107,14 +1084,12 @@ Medium devices (tablets, less than 992px)
   /*HOME PAGE*/
   .introductionTextWrap {
     padding-left: 3%;
-    padding-bottom: 5%;
-    position: absolute;
-    bottom: 8%;
+    padding-right: 5%;
   }
 
   .sectionIntroduction {
     display: block;
-    background-image: url(./../focusson-images/background/Photo by Damian Zaleski on Unsplash- FINAL.jpg);
+    background-image: url('./../focusson-images/background/Photo by Damian Zaleski on Unsplash- FINAL.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -1150,7 +1125,7 @@ Medium devices (tablets, less than 992px)
     display: block;
     width: 100%;
     /* background-image: url(../focusson-images/picture/white-table); */
-    background-image: url(../focusson-images/background/Photo by Malte Wingen on Unsplash - FINAL.jpg);
+    background-image: url('../focusson-images/background/Photo by Malte Wingen on Unsplash - FINAL.jpg');
     background-repeat: no-repeat;
     background-attachment: inherit; /*nie moglam tu zrobic attachmet: fixed*/
     background-position: center;
@@ -1170,38 +1145,21 @@ Medium devices (tablets, less than 992px)
 /*Extra small devices (samsung Galaxy S5)*/
 @media (max-width: 360px) {
   .sectionIntroduction {
-    display: block;
-    background-image: url(./../focusson-images/background/Photo by Damian Zaleski on Unsplash- FINAL.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 81vh;
-    background-position: top RIGHT;
-    z-index: 0;
+    background-position: top;
+    height: 110vh;
   }
 
   .introductionTextWrap {
     padding-left: 5%;
-    padding-bottom: 1%;
-    position: absolute;
-    bottom: 8%;
+    padding-right: 1%;
   }
 
   .main-slogan {
-    font-weight: 600;
-    font-size: 14px;
-    margin-top: 5%;
+    font-size: 25px;
   }
 
   .sub-slogan {
-    font-size: 9px;
-    line-height: 1rem;
-    font-weight: 300;
-    color: black;
-    display: block;
+    font-size: 16px;
   }
 
   /*contact*/
@@ -1237,7 +1195,7 @@ Medium devices (tablets, less than 992px)
     display: block;
     width: 100%;
     /* background-image: url(../focusson-images/picture/white-table); */
-    background-image: url(../focusson-images/background/Photo by Malte Wingen on Unsplash - FINAL.jpg);
+    background-image: url('../focusson-images/background/Photo by Malte Wingen on Unsplash - FINAL.jpg');
     background-repeat: no-repeat;
     background-attachment: inherit;
     background-position: center;
@@ -1289,5 +1247,26 @@ Medium devices (tablets, less than 992px)
     font-size: 14px;
     text-align: center;
   }
+}
+
+
+
+
+
+/*SAFARI NA IPADY I IPHONY*/
+.safari .sectionIntroduction {
+  background-attachment: unset;
+}
+
+.safari .sectionTools {
+  background-attachment: unset;
+}
+
+.safari .sectionPricing {
+  background-attachment: unset;
+}
+
+.safari .sectionContact {
+  background-attachment: unset;
 }
 
