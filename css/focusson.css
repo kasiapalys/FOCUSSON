@@ -1249,10 +1249,6 @@ a {
   }
 }
 
-
-
-
-
 /*SAFARI NA IPADY I IPHONY*/
   .safari .sectionIntroduction {
     background-attachment: unset;
@@ -1270,11 +1266,11 @@ a {
     background-attachment: unset;
   }
   /*WHAT WE CAN DO FOR YOU*/
-  .sectionTools {
+  .safari .sectionTools {
     background-position: 84% -4%;
   }
 
-  .toolText {
+  .safari .toolText {
     color: #C3C3C3;
   }
 
