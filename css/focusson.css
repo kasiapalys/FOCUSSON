@@ -1254,19 +1254,27 @@ a {
 
 
 /*SAFARI NA IPADY I IPHONY*/
-.safari .sectionIntroduction {
-  background-attachment: unset;
-}
+  .safari .sectionIntroduction {
+    background-attachment: unset;
+  }
 
-.safari .sectionTools {
-  background-attachment: unset;
-}
+  .safari .sectionTools {
+    background-attachment: unset;
+  }
 
-.safari .sectionPricing {
-  background-attachment: unset;
-}
+  .safari .sectionPricing {
+    background-attachment: unset;
+  }
 
-.safari .sectionContact {
-  background-attachment: unset;
-}
+  .safari .sectionContact {
+    background-attachment: unset;
+  }
+  /*WHAT WE CAN DO FOR YOU*/
+  .sectionTools {
+    background-position: 84% -4%;
+  }
+
+  .toolText {
+    color: #C3C3C3;
+  }
 
